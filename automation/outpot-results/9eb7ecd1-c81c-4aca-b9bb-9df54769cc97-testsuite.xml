@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663928266808' stop='1663928281319'>
+    <name>Click on Solution menu</name>
+    <title>Click on Solution menu</title>
+    <test-cases>
+        <test-case start='1663928266808' status='failed' stop='1663928281318'>
+            <name>solution</name>
+            <title>solution</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: undefined
+                Received: "https://www.360logica.com/performance-testing/"</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: undefined
+                Received: "https://www.360logica.com/performance-testing/"
+                    at SolutionMainMenu.clickTSMenus (D:\WdioAutomation\test\pageobjects\solutionsMenu.ts:29:64)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (D:\WdioAutomation\test\specs\solutionmenuTS.spec.ts:13:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

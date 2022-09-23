@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663932028459' stop='1663932051031'>
+    <name>360Logica official website</name>
+    <title>360Logica official website</title>
+    <test-cases>
+        <test-case start='1663932028459' status='passed' stop='1663932044568'>
+            <name>click and veriy Urls of solution menu and submenus</name>
+            <title>click and veriy Urls of solution menu and submenus</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663932044568' status='broken' stop='1663932051029'>
+            <name>Create account on Get Social form</name>
+            <title>Create account on Get Social form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=105.0.5195.102)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=105.0.5195.102)
+                    at getErrorFromResponseBody (D:\WdioAutomation\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WdioAutomation\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\WdioAutomation\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\WdioAutomation\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

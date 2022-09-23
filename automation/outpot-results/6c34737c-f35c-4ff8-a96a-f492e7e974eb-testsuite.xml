@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663933174374' stop='1663933194325'>
+    <name>360Logica official website</name>
+    <title>360Logica official website</title>
+    <test-cases>
+        <test-case start='1663933174375' status='passed' stop='1663933188888'>
+            <name>click and veriy Urls of solution menu and submenus</name>
+            <title>click and veriy Urls of solution menu and submenus</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663933188888' status='passed' stop='1663933194324'>
+            <name>Create account on Get Social form</name>
+            <title>Create account on Get Social form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

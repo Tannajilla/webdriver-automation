@@ -1,0 +1,30 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "mocha,chai,wdio,typescript",
+    "main": "index.js",
+    "author": "ACA group",
+    "license": "MIT",
+    "devDependencies": {
+        "@wdio/cli": "^7.24.0",
+        "@wdio/local-runner": "^7.24.0",
+        "@wdio/mocha-framework": "^7.24.0",
+        "@wdio/spec-reporter": "^7.24.0",
+        "chromedriver": "^105.0.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8.3",
+        "wdio-chromedriver-service": "^7.3.2"
+    },
+    "scripts": {
+       
+         "wdio": "wdio run test/Configs/wdio.chrome.conf.ts"
+      
+    },
+    "dependencies": {
+        "@wdio/allure-reporter": "^7.24.0",
+        "@wdio/selenium-standalone-service": "^7.24.0",
+        "i": "^0.3.7",
+        "wdio-timeline-reporter": "^5.1.4",
+        "wdio-wait-for": "^2.2.6"
+    }
+}

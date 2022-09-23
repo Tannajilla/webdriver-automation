@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663927647466' stop='1663927656635'>
+    <name>Click on Solution menu</name>
+    <title>Click on Solution menu</title>
+    <test-cases>
+        <test-case start='1663927647467' status='broken' stop='1663927656634'>
+            <name>solution</name>
+            <title>solution</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The selector "//span[text()='Test Automation'])[1]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "//span[text()='Test Automation'])[1]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (D:\WdioAutomation\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WdioAutomation\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (D:\WdioAutomation\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (D:\WdioAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async SolutionMainMenu.clickTSMenus (D:\WdioAutomation\test\pageobjects\solutionsMenu.ts:19:16)
+                    at async Context.&lt;anonymous> (D:\WdioAutomation\test\specs\solutionmenuTS.spec.ts:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
